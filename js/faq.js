@@ -25,9 +25,9 @@ function show(){
         let showpoint = 150;
 
         if(showtop < windowheight - showpoint){
-            shows[i].classList.add('active');
+            shows[i].classList.add('operational');
         }else{
-            shows[i].classList.remove('active');
+            shows[i].classList.remove('operational');
         }
     }
 }
