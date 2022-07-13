@@ -36,7 +36,7 @@ body {
 /* Hero */
 
 .hero-page {
-    background: url("/img/faq-bg.jpeg");
+    background: url("../img/faq-bg.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -171,6 +171,18 @@ input {
 @media (max-width: 437px){
     .sm-md-icon {
         left: 300px !important;
+    }
+}
+
+@media (max-width: 375px){
+    .sm-md-icon {
+        left: 270px !important;
+    }
+}
+
+@media (max-width: 348px){
+    .sm-md-icon {
+        left: 200px !important;
     }
 }
 
