@@ -40,7 +40,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    min-height: 50vh;
+    min-height: 100vh;
 }
 
 .hero-page h1 {
