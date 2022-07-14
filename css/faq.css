@@ -198,14 +198,14 @@ input {
     }
 }
 
-.show {
+.showw {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
     transition: all 2s ease;
 }
 
-.show.operational {
+.showw.operational {
     transform: translateY(0);
     opacity: 1;
 }
